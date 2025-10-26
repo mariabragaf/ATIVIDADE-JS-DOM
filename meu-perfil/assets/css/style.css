@@ -1,0 +1,128 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f5ff;
+    color: #3a2d46;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: background-color 0.6s, color 0.6s;
+}
+
+header {
+    padding: 2rem 1rem;
+    background: linear-gradient(135deg, #f7d6ff, #e4b4ff);
+    color: #3a2d46; 
+    border-bottom: 2px solid #e0c3ff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.minha-foto {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #c79aff;
+    box-shadow: 0 0 10px  #e5baff;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.7rem 1.3rem;
+  border: none;
+  border-radius: 12px;
+  background-color: #c79aff;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 3px 8px rgba(199, 154, 255, 0.5);
+}
+
+button:hover {
+    background-color:  #b57aff;
+    transform: scale(1.05);
+}
+
+section {
+  margin: 2.5rem auto;
+  max-width: 700px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(194, 169, 255, 0.2);
+  transition: background-color 0.6s, color 0.6s;
+}
+
+h2 {
+  color: #8c47ff;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f3e4ff;
+  margin: 0.5rem auto;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+a {
+  color: #9b51e0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #b86cff;
+}
+
+footer {
+  padding: 1.5rem;
+  background-color: #f3e4ff;
+  color: #5d437d;
+  border-top: 2px solid #e0c3ff;
+}
+
+body.dark-mode {
+  background-color: #1a1029;
+  color: #e7d5ff;
+}
+
+body.dark-mode header {
+  background: linear-gradient(135deg, #3b186b, #5a2a9e);
+  color: #f0e6ff;
+  border-bottom: 2px solid #7749c9;
+  box-shadow: 0 2px 15px rgba(150, 93, 255, 0.3);
+}
+
+body.dark-mode section {
+  background-color: #2a1b40;
+  color: #e7d5ff;
+  box-shadow: 0 5px 20px rgba(122, 66, 196, 0.3);
+}
+
+body.dark-mode li {
+  background-color: #3c2761;
+}
+
+body.dark-mode footer {
+  background-color: #2a1b40;
+  border-top: 2px solid #7749c9;
+  color: #c8a8ff;
+}
+
+body.dark-mode button {
+  background-color: #9b51e0;
+  color: #fff;
+  box-shadow: 0 3px 10px rgba(155, 81, 224, 0.5);
+}
+
+body.dark-mode button:hover {
+  background-color: #b86cff;
+  transform: scale(1.05);
+}
